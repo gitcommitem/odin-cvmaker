@@ -2,14 +2,28 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import './styles/app.css';
 
 class App extends Component {
   render () {
     return (
-      <div>
-        <Header />
-        <Experience />
-        <Education />
+      <div id='page-cont'>
+        <div id='inner-cont'>
+          <section id='header'>
+            <Header />
+            <hr></hr>
+          </section>
+          <section id='experience'>
+            <h3>Experience</h3>
+            <Experience />
+            <Experience />
+            <Experience />
+          </section>
+          <section id='education'>
+            <h3>Education</h3>
+            <Education />
+          </section>
+        </div>
       </div>
     );
   }

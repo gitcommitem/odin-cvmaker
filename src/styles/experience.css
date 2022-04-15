@@ -1,0 +1,44 @@
+div.job-item {
+  margin-bottom: 2rem;
+}
+
+div.job-item:last-of-type {
+  margin-bottom: 0;
+}
+
+ul {
+  padding: 0 0 0 0.7rem;
+  margin: 0;
+  list-style-type: '–';
+}
+
+input#title {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+input#company {
+  grid-column: 1/2;
+}
+
+div.date-range {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  gap: 0.5rem;
+}
+
+input.dates {
+  width: 100%;
+}
+
+li > input {
+  margin-left: 0.3rem;
+  width: 100%;
+}
+
+div.job-info {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 0.5rem;
+}

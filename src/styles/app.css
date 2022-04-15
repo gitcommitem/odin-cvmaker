@@ -1,0 +1,76 @@
+:root,
+input {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  max-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #fafafa;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+input:read-only {
+  background-color: inherit;
+  border: none;
+}
+
+input:read-only:hover {
+  background-color: #e6e6e6;
+}
+
+#page-cont {
+  width: 80vw;
+  margin: 3vw auto;
+  background-color: white;
+  border-radius: 0.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+#inner-cont {
+  width: 85%;
+  margin: 7% auto;
+  display: grid;
+  grid-template-columns: 70ch 1rem 1fr;
+  gap: 1rem;
+}
+
+section#header {
+  grid-column: 1/5;
+}
+
+section#experience {
+  grid-column: 1/2;
+}
+
+section#education {
+  grid-column: 4/5;
+}
