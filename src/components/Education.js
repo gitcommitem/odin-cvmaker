@@ -9,20 +9,13 @@ class Education extends Component {
           className='education'
           typeof='text'
           placeholder='University Name'
-          readOnly
         />
         <input
           className='education'
           typeof='text'
           placeholder='Bachelors of Science, Major'
-          readOnly
         />
-        <input
-          className='education'
-          typeof='text'
-          placeholder='Minor'
-          readOnly
-        />
+        <input className='education' typeof='text' placeholder='Minor' />
       </div>
     );
   }

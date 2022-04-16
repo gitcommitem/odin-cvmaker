@@ -6,38 +6,23 @@ class Experience extends Component {
     return (
       <div className='job-item'>
         <div className='job-info'>
-          <input typeof='text' placeholder='Job Title' id='title' readOnly />
-          <input
-            typeof='text'
-            placeholder='Company Name'
-            id='company'
-            readOnly
-          />
+          <input typeof='text' placeholder='Job Title' id='title' />
+          <input typeof='text' placeholder='Company Name' id='company' />
           <div class='date-range'>
-            <input
-              className='dates'
-              typeof='text'
-              placeholder='Start Year'
-              readOnly
-            />
+            <input className='dates' typeof='text' placeholder='Start Year' />
             <p>-</p>
-            <input
-              className='dates'
-              typeof='text'
-              placeholder='End Year'
-              readOnly
-            />
+            <input className='dates' typeof='text' placeholder='End Year' />
           </div>
         </div>
         <ul>
           <li>
-            <input typeof='text' placeholder='Job duties' readOnly />
+            <input typeof='text' placeholder='Job duties' />
           </li>
           <li>
-            <input typeof='text' placeholder='Job duties' readOnly />
+            <input typeof='text' placeholder='Job duties' />
           </li>
           <li>
-            <input typeof='text' placeholder='Job duties' readOnly />
+            <input typeof='text' placeholder='Job duties' />
           </li>
         </ul>
       </div>

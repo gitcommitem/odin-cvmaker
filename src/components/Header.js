@@ -8,21 +8,15 @@ class Header extends Component {
         <input
           className='header'
           typeof='text'
-          placeholder='First Name Last Name'
-          readOnly
+          placeholder='Firstname Lastname'
+          autoFocus
         />
         <input
           className='header'
           typeof='email'
           placeholder='fullname@gmail.com'
-          readOnly
         />
-        <input
-          className='header'
-          typeof='url'
-          placeholder='fullname.com'
-          readOnly
-        />
+        <input className='header' typeof='url' placeholder='fullname.com' />
       </div>
     );
   }
