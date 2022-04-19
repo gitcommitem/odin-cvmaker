@@ -74,6 +74,7 @@ input:focus {
   margin: 7% auto;
   display: grid;
   grid-template-columns: 70ch 1rem 1fr;
+  grid-template-rows: auto auto;
   gap: 1rem;
 }
 
@@ -83,8 +84,12 @@ section#header {
 
 section#experience {
   grid-column: 1/2;
+  grid-row: span 2;
 }
 
 section#education {
+  grid-column: 4/5;
+}
+section#skills {
   grid-column: 4/5;
 }

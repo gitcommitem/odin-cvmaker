@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import './styles/app.css';
+import Skills from './components/Skills';
 
 class App extends Component {
   render () {
@@ -22,6 +23,10 @@ class App extends Component {
           <section id='education'>
             <h3>Education</h3>
             <Education />
+          </section>
+          <section id='skills'>
+            <h3>Skills</h3>
+            <Skills />
           </section>
         </div>
       </div>
