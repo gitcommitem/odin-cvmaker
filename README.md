@@ -1,6 +1,6 @@
 # TOP Javascript Course Project - CV Maker
 
-04/14/2022 ~
+04/14/2022 ~ 04/18/2022
 
 ## Objectives
 
@@ -15,3 +15,5 @@ The site must include the following:
   - Practical experience (previous companies)
 
 ## Learnings
+
+Really enjoy JSX and the way that components are setup.
